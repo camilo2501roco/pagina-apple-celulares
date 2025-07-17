@@ -2023,6 +2023,7 @@ font-size: 8px;
 
 .bloque-final{
   margin: 0 auto;
+  
   width: 99%;
 }
 
@@ -2077,23 +2078,25 @@ font-size: 8px;
 
 
 .imagenes-ultimas{
-  display: grid;
-  grid-template-columns: repeat(6,1fr);
-   overflow-x: auto;
+display: flex;
+
+    overflow-x: auto;
     scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  justify-content: center;
-  margin: 0 auto;
-
+     justify-content: center;
+ 
 }
 .con-boton, .sin-boton{
-  width: 140px;
-  height: 140px;
-   scroll-snap-align: center;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+   
 }
 .imagen-ultima {
   width: 60px;
   height: 60px;
+ 
 }
 
 
